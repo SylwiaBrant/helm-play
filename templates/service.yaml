@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.service.name }}
   labels:
     {{- include "example.labels" . | nindent 4 }}
-  namespace: {{ .Values.nodeapp.namespace }}
+  namespace: {{ .Values.nodeApp.namespace }}
 spec:
   type: {{ .Values.service.type }}
   ports:

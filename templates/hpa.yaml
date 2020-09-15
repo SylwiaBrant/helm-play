@@ -5,7 +5,7 @@ metadata:
   name: {{ include "example.fullname" . }}
   labels:
     {{- include "example.labels" . | nindent 4 }}
-    namespace: {{ .Values.nodeapp.namespace }}
+  namespace: {{ .Values.nodeApp.namespace }}
 spec:
   scaleTargetRef:
     apiVersion: apps/v1

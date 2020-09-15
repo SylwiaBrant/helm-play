@@ -46,7 +46,7 @@ ingress:
   #  - secretName: chart-example-tls
   #    hosts:
   #      - chart-example.local
-nodeapp:
+nodeApp:
   namespace: node-app-namespace
 resources: {}
   # We usually recommend not to specify default resources and to leave this as a conscious
